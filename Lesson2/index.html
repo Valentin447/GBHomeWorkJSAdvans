@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="1.js" defer></script>
+  <script src="2.js" defer></script>
+</head>
+<body>
+
+  <ul class="product-list"></ul>
+
+  <template class="product">
+    <li class="product__item">
+      <h2 class="product__name"></h2>
+      <ul class="product__reviews-list"></ul>
+        <textarea class="product__textarea" name="area" id="area" cols="30" rows="10" placeholder="от 50 до 500 знаков"></textarea>
+        <button class="product__button-add-reviews">Добавить отзыв</button>
+        <div class="error-mesage"></div>
+    </li>
+  </template>
+</body>
+</html>
